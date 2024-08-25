@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Title -->
+    <title>Klipaa | Dashboard</title>
+
+    <!-- Logo -->
+    <link rel="shortcut icon" href="L-Klipaa.svg" type="image/x-icon">
+
+    <!-- Boxicons CSS -->
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <!-- Cdn | Tailwindcss -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/flowbite@2.5.1/dist/flowbite.min.css" rel="stylesheet">
+
+    <!-- Cdn | Boostrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom Css -->
+    <link rel="stylesheet" href="index.css">
+
+</head>
+
+<body>
+
+
+
+    <!-- Navbar -->
+    <nav class="navbar" style="position: fixed;">
+        <div class="logo_item">
+            <i class="bx bx-menu" id="sidebarOpen"></i>
+            <img src="L-KLipaa.svg" alt=""></i>Klipaa Indonesia
+        </div>
+
+        <div class="search_bar">
+            <input type="text" placeholder="Cari disini.." />
+        </div>
+
+        <div class="navbar_content">
+            <i class="bi bi-grid"></i>
+            <i class='bx bx-bell'></i>
+            <img src="profile.png" alt="" class="profile" />
+        </div>
+    </nav>
+    <!-- End | Navbar -->
+
+
+
+    <!-- Sidebar -->
+    <nav class="sidebar">
+
+        <!-- Menu Content -->
+        <div class="menu_content">
+
+            <!-- Menu Sidebar 1 -->
+            <ul class="menu_items">
+                <div class="menu_title menu_1"></div>
+
+                <li class="item">
+                    <a href="#" class="nav_link_active">
+                        <span class="navlink_icon">
+                            <i class="bx bx-group"></i>
+                        </span>
+                        <span class="navlink">Data Aparatur</span>
+                    </a>
+                </li>
+
+                <li class="item">
+                    <a href="#" class="nav_link">
+                        <span class="navlink_icon">
+                            <i class="bx bx-id-card"></i>
+                        </span>
+                        <span class="navlink">Data PKA</span>
+                    </a>
+                </li>
+
+                <li class="item">
+                    <a href="#" class="nav_link">
+                        <span class="navlink_icon">
+                            <i class="bx bx-user"></i>
+                        </span>
+                        <span class="navlink">Data TPK</span>
+                    </a>
+                </li>
+
+                <li class="item">
+                    <a href="#" class="nav_link">
+                        <span class="navlink_icon">
+                            <i class="bx bx-file"></i>
+                        </span>
+                        <span class="navlink">Data Penyedia</span>
+                    </a>
+                </li>
+            </ul>
+            <!-- End | Menu Sidebar 1 -->
+
+            <!-- Menu Sidebar 2 -->
+            <ul class="menu_items">
+                <div class="menu_title menu_2"></div>
+
+                <li class="item">
+                    <a href="#" class="nav_link">
+                        <span class="navlink_icon">
+                            <i class="bx bx-news"></i>
+                        </span>
+                        <span class="navlink">Berita Acara</span>
+                    </a>
+                </li>
+
+                <li class="item">
+                    <a href="#" class="nav_link">
+                        <span class="navlink_icon">
+                            <i class="bx bx-folder"></i>
+                        </span>
+                        <span class="navlink">RKP Desa</span>
+                    </a>
+                </li>
+
+                <li class="item">
+                    <a href="#" class="nav_link">
+                        <span class="navlink_icon">
+                            <i class="bx bx-calendar-check"></i>
+                        </span>
+                        <span class="navlink">Pengumuman<br>Perencanaan</span>
+                    </a>
+            </ul>
+            <!-- End | Menu Sidebar 2 -->
+
+            <!-- Menu Sidebar 3 -->
+            <ul class="menu_items">
+                <div class="menu_title menu_3"></div>
+
+                <li class="item">
+                    <a href="#" class="nav_link">
+                        <span class="navlink_icon">
+                            <i class="bx bx-briefcase-alt-2"></i>
+                        </span>
+                        <span class="navlink">Secara Swakelola</span>
+                    </a>
+                </li>
+
+                <li class="item">
+                    <a href="#" class="nav_link">
+                        <span class="navlink_icon">
+                            <i class="bx bx-store-alt"></i>
+                        </span>
+                        <span class="navlink">Melalui Penyedia</span>
+                    </a>
+                </li>
+
+                <ul class="menu_items submenu">
+                    <a href="#" class="nav_link sublink">Menu Link 1</a>
+                    <a href="#" class="nav_link sublink">Menu Link 2</a>
+                </ul>
+                </li>
+            </ul>
+            <!-- End | Menu Sidebar 3 -->
+
+            <!-- Menu Sidebar 4 -->
+            <ul class="menu_items">
+                <div class="menu_title menu_4"></div>
+
+                <li class="item">
+                    <a href="#" class="nav_link">
+                        <span class="navlink_icon">
+                            <i class="bx bx-briefcase-alt-2"></i>
+                        </span>
+                        <span class="navlink">Secara Swakelola</span>
+                    </a>
+                </li>
+
+                <li class="item">
+                    <a href="#" class="nav_link">
+                        <span class="navlink_icon">
+                            <i class="bx bx-credit-card"></i>
+                        </span>
+                        <span class="navlink">Melalui Pembelian<br>Secara Langsung</span>
+                    </a>
+                </li>
+            </ul>
+            <!-- End | Menu Sidebar 4 -->
+
+            <!-- Menu Sidebar 5 -->
+            <ul class="menu_items">
+                <div class="menu_title menu_5"></div>
+
+                <li class="item">
+                    <a href="#" class="nav_link">
+                        <span class="navlink_icon">
+                            <i class="bx bx-user"></i>
+                        </span>
+                        <span class="navlink">Akun</span>
+                    </a>
+                </li>
+
+                <li class="item">
+                    <a href="#" class="nav_link">
+                        <span class="navlink_icon">
+                            <i class="bx bx-exit"></i>
+                        </span>
+                        <span class="navlink">Log Out</span>
+                    </a>
+                </li>
+            </ul>
+            <!-- End | Menu Sidebar 5 -->
+
+            <!-- Sidebar Open / Close -->
+            <div class="bottom_content">
+                <div class="bottom expand_sidebar">
+                    <span> Munculkan</span>
+                    <i class='bx bx-log-in'></i>
+                </div>
+                <div class="bottom collapse_sidebar">
+                    <span> Sembunyikan</span>
+                    <i class='bx bx-log-out'></i>
+                </div>
+            </div>
+            <!-- End | Sidebar Open / Close -->
+
+        </div>
+        <!-- End | Menu Content -->
+    </nav>
+    <!-- End | Sidebar -->
+
+
+
+    <!-- Main Content -->
+    <main id="mainContent">
+
+        <!-- Card 1 -->
+        <div class="w-full max-w-8xl py-1 bg-white shadow-lg rounded-lg overflow-hidden mx-auto mt-10">
+
+            <!-- Table Data Aparatur -->
+            <div class="w-full bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                <div class="p-5">
+                    <div class="flex items-center justify-between mb-4">
+                        <h2 class="text-xl font-semibold text-gray-900 dark:text-white">Data Aparatur Desa</h2>
+
+
+                        <!-- Tambah Data -->
+                        <button type="button"
+                            class="block text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+                            data-bs-toggle="modal" data-bs-target="#staticModal">
+                            Tambah Data
+                        </button>
+                    </div>
+
+                    <div class="overflow-x-auto">
+                        <table
+                            class="min-w-full text-left text-sm text-gray-500 dark:text-gray-400 border-separate border-spacing-0 border border-gray-200 dark:border-gray-700">
+                            <thead
+                                class="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
+                                <tr>
+                                    <th scope="col" class="px-6 py-3 border-b border-gray-200 dark:border-gray-700">No
+                                    </th>
+                                    <th scope="col" class="px-6 py-3 border-b border-gray-200 dark:border-gray-700">Nama
+                                    </th>
+                                    <th scope="col" class="px-6 py-3 border-b border-gray-200 dark:border-gray-700">
+                                        Jenis Kelamin</th>
+                                    <th scope="col" class="px-6 py-3 border-b border-gray-200 dark:border-gray-700">TTL
+                                    </th>
+                                    <th scope="col" class="px-6 py-3 border-b border-gray-200 dark:border-gray-700">
+                                        Nomor Induk</th>
+                                    <th scope="col" class="px-6 py-3 border-b border-gray-200 dark:border-gray-700">
+                                        Alamat Lengkap</th>
+                                    <th scope="col" class="px-6 py-3 border-b border-gray-200 dark:border-gray-700">NPWP
+                                    </th>
+                                    <th scope="col" class="px-6 py-3 border-b border-gray-200 dark:border-gray-700">No.
+                                        Hp</th>
+                                    <th scope="col" class="px-6 py-3 border-b border-gray-200 dark:border-gray-700">
+                                        Jabatan</th>
+                                    <th scope="col"
+                                        class="px-6 py-3 text-center border-b border-gray-200 dark:border-gray-700">Aksi
+                                    </th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr
+                                    class="bg-white border-b dark:bg-gray-900 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600">
+                                    <td class="px-6 py-4 border-b border-gray-200 dark:border-gray-700">Data</td>
+                                    <td class="px-6 py-4 border-b border-gray-200 dark:border-gray-700">Data</td>
+                                    <td class="px-6 py-4 border-b border-gray-200 dark:border-gray-700">Data</td>
+                                    <td class="px-6 py-4 border-b border-gray-200 dark:border-gray-700">Data</td>
+                                    <td class="px-6 py-4 border-b border-gray-200 dark:border-gray-700">Data</td>
+                                    <td class="px-6 py-4 border-b border-gray-200 dark:border-gray-700">Data</td>
+                                    <td class="px-6 py-4 border-b border-gray-200 dark:border-gray-700">Data</td>
+                                    <td class="px-6 py-4 border-b border-gray-200 dark:border-gray-700">Data</td>
+                                    <td class="px-6 py-4 border-b border-gray-200 dark:border-gray-700">Data</td>
+                                    <td class="px-6 py-4 text-center border-b border-gray-200 dark:border-gray-700"
+                                        style="display: flex; justify-content: space-between;">
+                                        <a href="#"
+                                            class="mx-2 text-blue-600 dark:text-blue-500 hover:text-blue-700 dark:hover:text-blue-400"
+                                            title="Edit Data">
+                                            <i class="fas fa-eye"></i>
+                                        </a>
+                                        <a href="#"
+                                            class="mx-2 text-yellow-600 dark:text-yellow-500 hover:text-yellow-700 dark:hover:text-yellow-400"
+                                            title="Edit Data" data-modal-target="popup-modal-edit"
+                                            data-modal-toggle="popup-modal-edit">
+                                            <i class="fas fa-edit"></i>
+                                        </a>
+                                        <a href="#"
+                                            class="text-red-600 dark:text-red-500 hover:text-red-700 dark:hover:text-red-400"
+                                            title="Delete Data" data-modal-target="popup-modal"
+                                            data-modal-toggle="popup-modal">
+                                            <i class="fas fa-trash"></i>
+                                        </a>
+                                    </td>
+                                </tr>
+
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <!-- End | Table Data Aparatur -->
+
+
+            <!-- Modal Tambah Data Aparatur -->
+            <div class="modal fade" id="staticModal" tabindex="-1" aria-labelledby="staticModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                    <div class="modal-content bg-white shadow-2xl rounded-xl">
+                        <div class="modal-header border-b border-gray-200 py-4 px-6">
+                            <h5 class="modal-title text-2xl font-bold text-gray-800" id="staticModalLabel">
+                                Tambah Data Aparat</h5>
+                            <button type="button" class="btn-close text-gray-400 hover:text-gray-600"
+                                data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body p-6">
+                            <form>
+                                <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+
+                                    <!-- Nama -->
+                                    <div>
+                                        <label for="nameAparat"
+                                            class="block text-sm font-medium text-gray-700">Nama</label>
+                                        <input type="text" id="nameAparat" placeholder="Masukkan Nama"
+                                            class="mt-2 block w-full p-3 border border-gray-300 rounded-lg shadow-sm focus:ring-blue-500 focus:border-blue-500 sm:text-sm">
+                                    </div>
+
+                                    <!-- Jenis Kelamin -->
+                                    <div>
+                                        <label for="genderAparat" class="block text-sm font-medium text-gray-700">Jenis
+                                            Kelamin</label>
+                                        <select id="genderAparat" name="genderAparat"
+                                            class="mt-2 block w-full p-3 border border-gray-300 rounded-lg shadow-sm focus:ring-blue-500 focus:border-blue-500 sm:text-sm">
+                                            <option value="" disabled selected>Pilih Jenis Kelamin</option>
+                                            <option value="Laki-laki">Laki-laki</option>
+                                            <option value="Perempuan">Perempuan</option>
+                                        </select>
+                                    </div>
+
+                                    <!-- Tempat Tanggal Lahir -->
+                                    <div>
+                                        <label for="dateOfBirthAparat"
+                                            class="block text-sm font-medium text-gray-700">Tempat Tanggal
+                                            Lahir</label>
+                                        <input type="text" id="dateOfBirthAparat" name="dateOfBirthAparat"
+                                            placeholder="Masukkan Tempat Tanggal Lahir"
+                                            class="mt-2 block w-full p-3 border border-gray-300 rounded-lg shadow-sm focus:ring-blue-500 focus:border-blue-500 sm:text-sm">
+                                    </div>
+
+                                    <!-- Nomor Induk -->
+                                    <div>
+                                        <label for="nomorIndukAparat"
+                                            class="block text-sm font-medium text-gray-700">Nomor
+                                            Induk</label>
+                                        <input type="number" id="nomorIndukAparat" name="nomorIndukAparat"
+                                            placeholder="Masukkan Nomor Induk"
+                                            class="mt-2 block w-full p-3 border border-gray-300 rounded-lg shadow-sm focus:ring-blue-500 focus:border-blue-500 sm:text-sm">
+                                    </div>
+
+                                    <!-- Alamat Lengkap -->
+                                    <div>
+                                        <label for="addressAparat"
+                                            class="block text-sm font-medium text-gray-700">Alamat
+                                            Lengkap</label>
+                                        <input type="text" id="addressAparat" placeholder="Masukkan Alamat Lengkap"
+                                            class="mt-2 block w-full p-3 border border-gray-300 rounded-lg shadow-sm focus:ring-blue-500 focus:border-blue-500 sm:text-sm">
+                                    </div>
+
+                                    <!-- NPWP -->
+                                    <div>
+                                        <label for="npwpAparat"
+                                            class="block text-sm font-medium text-gray-700">NPWP</label>
+                                        <input type="text" id="npwpAparat" placeholder="Masukkan NPWP"
+                                            class="mt-2 block w-full p-3 border border-gray-300 rounded-lg shadow-sm focus:ring-blue-500 focus:border-blue-500 sm:text-sm">
+                                    </div>
+
+                                    <!-- No. Hp -->
+                                    <div>
+                                        <label for="phoneAparat" class="block text-sm font-medium text-gray-700">No.
+                                            Hp</label>
+                                        <input type="number" id="phoneAparat" placeholder="Masukkan Nomor Hp"
+                                            class="mt-2 block w-full p-3 border border-gray-300 rounded-lg shadow-sm focus:ring-blue-500 focus:border-blue-500 sm:text-sm">
+                                    </div>
+
+                                    <!-- Jabatan -->
+                                    <div>
+                                        <label for="jabatanAparat"
+                                            class="block text-sm font-medium text-gray-700">Jabatan</label>
+                                        <select id="jabatanAparat" name="jabatanAparat"
+                                            class="mt-2 block w-full p-3 border border-gray-300 rounded-lg shadow-sm focus:ring-blue-500 focus:border-blue-500 sm:text-sm">
+                                            <option value="" disabled selected>Pilih Jabatan</option>
+                                            <option value="headOfVillage">Kepala Desa</option>
+                                            <option value="villageSecretary">Sekretaris Desa</option>
+                                            <option value="headOfAdministrativeAffairs">Kepala Urusan Tata
+                                                Usaha Dan Umum</option>
+                                            <option value="headOfFinance">Kepala Urusan Keuangan</option>
+                                            <option value="headOfPlanning">Kepala Urusan Perencanaan
+                                            </option>
+                                            <option value="headOfGovernmentSelection">Kepala Seleksi
+                                                Pemerintahan</option>
+                                            <option value="headOfWelfareSelection">Kepala Seleksi
+                                                Kesejahtraan</option>
+                                            <option value="headOfServiceSelection">Kepala Seleksi Pelayanan
+                                            </option>
+                                            <option value="headOfDusun1">Kepala Dusun 1</option>
+                                            <option value="headOfDusun2">Kepala Dusun 2</option>
+                                            <option value="headOfDusun3">Kepala Dusun 3</option>
+                                            <option value="generalOperator">Operator Umum Desa</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="modal-footer border-t border-gray-200 py-4 px-6">
+                            <button type="button" class="btn btn-secondary text-gray-700 bg-gray-200 hover:bg-gray-300"
+                                data-bs-dismiss="modal">Tutup</button>
+                            <button type="button"
+                                class="btn btn-primary bg-blue-500 text-white hover:bg-blue-600">Simpan</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- End | Modal Tammbah Data Aparatur -->
+
+
+
+            <!-- Modal Lihat Data -->
+
+            <!-- End | Modal Lihat Data-->
+
+
+
+            <!-- Modal Edit Data -->
+
+            <!-- End | Modal Edit Data -->
+
+
+
+            <!-- Modal Hapus Data -->
+            <div id="popup-modal" tabindex="-1"
+                class="hidden fixed inset-0 z-50 flex justify-center items-center w-full h-screen bg-black bg-opacity-50">
+                <div class="relative p-4 w-full max-w-md">
+                    <div class="relative bg-white rounded-lg shadow-lg dark:bg-gray-800">
+                        <button type="button"
+                            class="absolute top-3 right-3 text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-full text-sm w-8 h-8 inline-flex justify-center items-center dark:hover:bg-gray-600 dark:hover:text-white"
+                            data-modal-hide="popup-modal">
+                            <svg class="w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
+                                viewBox="0 0 14 14">
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2" d="M1 1l6 6m0 0l6 6M7 7l6-6M7 7l-6 6" />
+                            </svg>
+                            <span class="sr-only">Tutup modal</span>
+                        </button>
+                        <div class="p-6 text-center">
+                            <svg class="mx-auto mb-4 text-gray-400 w-14 h-14 dark:text-gray-200" aria-hidden="true"
+                                xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2"
+                                    d="M12 8v4m0 4h.01M19.071 4.929a10 10 0 1 1-14.142 0 10 10 0 0 1 14.142 0Z" />
+                            </svg>
+                            <h3 class="mb-5 text-lg font-semibold text-gray-700 dark:text-gray-300">Apakah Anda yakin
+                                ingin menghapus data ini?</h3>
+                            <div class="flex justify-center">
+                                <button data-modal-hide="popup-modal" type="button"
+                                    class="text-white bg-red-600 hover:bg-red-700 focus:ring-4 focus:outline-none focus:ring-red-300 dark:focus:ring-red-800 font-medium rounded-lg text-sm px-5 py-2.5 mx-2 transition ease-in-out duration-150">
+                                    Ya, saya yakin
+                                </button>
+                                <button data-modal-hide="popup-modal" type="button"
+                                    class="text-gray-700 bg-white border border-gray-300 hover:bg-gray-100 hover:text-blue-700 focus:ring-4 focus:outline-none focus:ring-gray-200 font-medium rounded-lg text-sm px-5 py-2.5 mx-2 transition ease-in-out duration-150 dark:bg-gray-800 dark:text-gray-300 dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:text-white">
+                                    Tidak, batalkan
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- End | Modal Hapus Data -->
+
+
+
+            <!-- Footer -->
+            <footer class="bg-gray-900 text-white py-8">
+                <div class="container mx-auto px-6">
+                    <div class="flex flex-col md:flex-row justify-between items-center space-y-6 md:space-y-0">
+                        <!-- Logo and Copyright -->
+                        <div
+                            class="flex flex-col md:flex-row items-center space-y-4 md:space-y-0 md:space-x-4 text-center md:text-left">
+                            <img src="L-Klipaa.svg" alt="Logo Klipaa" class="h-10">
+                            <p class="text-sm">© 2024 Klipaa. All rights reserved.</p>
+                        </div>
+
+                        <!-- Navigation Links -->
+                        <nav class="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-8 text-center">
+                            <a href="#" class="text-sm hover:text-blue-400 transition-colors duration-300">Beranda</a>
+                            <a href="#" class="text-sm hover:text-blue-400 transition-colors duration-300">Tentang</a>
+                            <a href="#" class="text-sm hover:text-blue-400 transition-colors duration-300">Layanan</a>
+                            <a href="#" class="text-sm hover:text-blue-400 transition-colors duration-300">Kontak</a>
+                        </nav>
+
+                        <!-- Social Media Links -->
+                        <div class="flex space-x-6">
+                            <a href="#" aria-label="Facebook"
+                                class="hover:text-blue-500 transition-colors duration-300">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                            <a href="#" aria-label="Instagram"
+                                class="hover:text-blue-400 transition-colors duration-300">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                            <a href="#" aria-label="Youtube" class="hover:text-pink-500 transition-colors duration-300">
+                                <i class="fab fa-youtube"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+            <!-- End | Footer -->
+
+        </div>
+        <!-- End | Card 1 -->
+
+    </main>
+    <!-- End | Main Content -->
+
+    <!-- JavaScript | Liblary -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/flowbite@2.5.1/dist/flowbite.min.js"></script>
+
+    <!-- JavaScript | Connect -->
+    <script src="index.js"></script>
+
+
+
+</body>
+
+</html>
