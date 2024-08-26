@@ -321,7 +321,7 @@
                                             title="Delete Data" data-modal-target="popup-modal"
                                             data-modal-toggle="popup-modal">
                                             <i class="fas fa-trash"></i>
-                                        </a>
+                                        </a>;
                                     </td>
                                 </tr>
 
